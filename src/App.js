@@ -1,6 +1,12 @@
 // src/App.jsx
-import React, { useState } from "react";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import React, { useState, useEffect } from "react";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Link,
+  useLocation,
+} from "react-router-dom";
 import { motion } from "framer-motion";
 import Home from "./pages/Home";
 import CV from "./pages/CV";
@@ -10,11 +16,22 @@ import Video from "./pages/Video";
 import Footer from "./components/Footer";
 import MobileMenu from "./components/MobileMenu";
 
+function ScrollToTop() {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
+  return null;
+}
+
 function App() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
     <Router>
+      <ScrollToTop />
       <div className="min-h-screen bg-gradient-to-br from-slate-100 to-slate-200 text-slate-800">
         {/* Header flottant moderne avec effet glassmorphism */}
         <motion.header
