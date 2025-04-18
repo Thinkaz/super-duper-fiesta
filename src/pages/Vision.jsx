@@ -41,7 +41,7 @@ const Vision = () => {
           </p>
         </motion.div>
 
-        {/* Section Hero avec citation */}
+        {/* Section Hero avec vision principale */}
         <motion.div
           initial={{ opacity: 0, scale: 0.95 }}
           animate={{ opacity: 1, scale: 1 }}
@@ -53,18 +53,31 @@ const Vision = () => {
               <div>
                 <svg
                   className="h-12 w-12 text-blue-300 mb-6 opacity-50"
-                  fill="currentColor"
+                  fill="none"
+                  stroke="currentColor"
                   viewBox="0 0 24 24"
                 >
-                  <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={1.5}
+                    d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                  />
                 </svg>
-                <h2 className="text-2xl md:text-3xl font-light italic mb-4 leading-relaxed">
-                  Le Bureau des radiocommunications doit anticiper et faciliter
-                  l'intégration des technologies émergentes pour garantir une
-                  gestion proactive, équitable, efficace et durable des
-                  ressources orbite/spectre.
-                </h2>
-                <p className="text-blue-200 text-lg">— Éric Fournier</p>
+                <div className="text-2xl md:text-3xl font-light mb-4 leading-relaxed">
+                  <p>
+                    Le Bureau des radiocommunications doit anticiper et
+                    faciliter l'intégration des technologies émergentes et des
+                    nouveaux usages, en particulier dans le spatial.
+                  </p>
+                  <p className="mt-4">
+                    L'objectif est de garantir une gestion proactive, équitable,
+                    efficace et durable des ressources orbite/spectre limitées.
+                  </p>
+                </div>
+                <p className="text-blue-200 text-lg italic">
+                  Extrait de la brochure de candidature
+                </p>
               </div>
             </div>
             <div className="bg-blue-800 p-8 md:p-12 flex flex-col justify-center">
@@ -331,10 +344,7 @@ const Vision = () => {
             règlementaires d'aujourd'hui et de demain.
           </p>
           <div className="inline-flex">
-            <button
-              className="bg-blue-900 text-white px-6 py-3 rounded-lg hover:bg-blue-800 transition-colors shadow-md"
-              href="/engagements"
-            >
+            <button className="bg-blue-900 text-white px-6 py-3 rounded-lg hover:bg-blue-800 transition-colors shadow-md">
               Découvrir ses engagements
             </button>
           </div>

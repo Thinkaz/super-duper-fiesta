@@ -13,7 +13,7 @@ const Engagements = () => {
         "Dans un monde en constante évolution, Éric Fournier s'engage à maintenir le rôle et la crédibilité de l'UIT dans la gestion rationnelle, équitable, efficace et durable de ces ressources. Il veillera tout particulièrement à ce que cette gestion prenne en compte l'essor des nouvelles applications du spatial et des constellations, ainsi que la rapidité des progrès technologiques, garantissant ainsi que l'UIT soit en phase avec les défis actuels du secteur.",
       icon: (
         <svg
-          className="h-6 w-6 text-white"
+          className="h-6 w-6 text-blue-600"
           fill="none"
           stroke="currentColor"
           viewBox="0 0 24 24"
@@ -26,7 +26,6 @@ const Engagements = () => {
           />
         </svg>
       ),
-      color: "bg-blue-600",
     },
     {
       id: 2,
@@ -36,7 +35,7 @@ const Engagements = () => {
         "Sous le contrôle du Comité du Règlement des radiocommunications, Éric Fournier s'engage à faire respecter ces règles. Il mettra un accent particulier sur la prévention et la résolution des brouillages afin de garantir une exploitation optimale et sans brouillage des systèmes de radiocommunication.",
       icon: (
         <svg
-          className="h-6 w-6 text-white"
+          className="h-6 w-6 text-indigo-600"
           fill="none"
           stroke="currentColor"
           viewBox="0 0 24 24"
@@ -49,7 +48,6 @@ const Engagements = () => {
           />
         </svg>
       ),
-      color: "bg-indigo-600",
     },
     {
       id: 3,
@@ -58,7 +56,7 @@ const Engagements = () => {
         "Éric Fournier est résolu à répondre aux enjeux transversaux qui façonnent l'avenir de l'UIT, tels que la connectivité universelle, la transformation numérique durable, l'intelligence artificielle et la stratégie de mobilisation des ressources de l'UIT.",
       icon: (
         <svg
-          className="h-6 w-6 text-white"
+          className="h-6 w-6 text-purple-600"
           fill="none"
           stroke="currentColor"
           viewBox="0 0 24 24"
@@ -71,7 +69,6 @@ const Engagements = () => {
           />
         </svg>
       ),
-      color: "bg-purple-600",
     },
     {
       id: 4,
@@ -80,7 +77,7 @@ const Engagements = () => {
         "Éric Fournier s'engage à faciliter le succès de la CMR-27, en veillant à ce que les compromis nécessaires soient trouvés pour répondre aux défis techniques et réglementaires complexes de son ordre du jour. Il s'assurera que les décisions prises par la Conférence soient mises en œuvre de manière rapide et efficace.",
       icon: (
         <svg
-          className="h-6 w-6 text-white"
+          className="h-6 w-6 text-teal-600"
           fill="none"
           stroke="currentColor"
           viewBox="0 0 24 24"
@@ -93,7 +90,6 @@ const Engagements = () => {
           />
         </svg>
       ),
-      color: "bg-teal-600",
     },
     {
       id: 5,
@@ -102,7 +98,7 @@ const Engagements = () => {
         "Éric Fournier place la confiance et l'équité au cœur de son approche. Il s'engage à maintenir un dialogue constant avec toutes les administrations, tout en veillant à promouvoir un climat de confiance mutuelle et de coopération. Il défendra une approche inclusive et transparente au sein de l'UIT.",
       icon: (
         <svg
-          className="h-6 w-6 text-white"
+          className="h-6 w-6 text-amber-600"
           fill="none"
           stroke="currentColor"
           viewBox="0 0 24 24"
@@ -115,7 +111,6 @@ const Engagements = () => {
           />
         </svg>
       ),
-      color: "bg-amber-600",
     },
   ];
 
