@@ -2,12 +2,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { Timeline } from "flowbite-react";
-import {
-  HiCalendar,
-  HiAcademicCap,
-  HiBriefcase,
-  HiGlobe,
-} from "react-icons/hi";
+import { HiAcademicCap, HiBriefcase, HiGlobe } from "react-icons/hi";
 
 const CV = () => {
   return (

@@ -1,18 +1,8 @@
 // src/pages/Home.jsx
-import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 
 const Home = () => {
-  const [scrollY, setScrollY] = useState(0);
-
-  // Effet pour suivre le défilement
-  useEffect(() => {
-    const handleScroll = () => setScrollY(window.scrollY);
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
-
   return (
     <div className="bg-white">
       {/* Hero section avec split-screen */}
@@ -65,7 +55,7 @@ const Home = () => {
             </motion.p>
 
             <motion.div
-              className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4 pt-16"
+              className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4 pt-1"
               initial={{ y: 20, opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
               transition={{ delay: 1 }}
