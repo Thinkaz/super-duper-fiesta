@@ -52,7 +52,7 @@ const Vision = () => {
             <div className="p-8 md:p-12 flex items-center">
               <div>
                 <svg
-                  className="h-12 w-12 text-blue-300 mb-6 opacity-50"
+                  className="md:h-12 md:w-12 text-blue-300 mb-6 opacity-50 w-6 h-6"
                   fill="none"
                   stroke="currentColor"
                   viewBox="0 0 24 24"
@@ -64,7 +64,7 @@ const Vision = () => {
                     d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
                   />
                 </svg>
-                <div className="text-2xl md:text-3xl font-light mb-4 leading-relaxed">
+                <div className="text-lg md:text-3xl font-light mb-4 leading-relaxed">
                   <p>
                     Le Bureau des radiocommunications doit anticiper et
                     faciliter l'intégration des technologies émergentes et des
@@ -75,7 +75,7 @@ const Vision = () => {
                     efficace et durable des ressources orbite/spectre limitées.
                   </p>
                 </div>
-                <p className="text-blue-200 text-lg italic">
+                <p className="text-blue-200 md:text-lg text-sm italic">
                   Extrait de la brochure de candidature
                 </p>
               </div>

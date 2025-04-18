@@ -29,22 +29,18 @@ const CV = () => {
 
         <div className="max-w-5xl mx-auto">
           {/* Section principale avec photo */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
+          <div className="grid grid-cols-1 md:grid-cols-3 md:gap-8 mb-16 justify-center">
             <motion.div
               initial={{ opacity: 0, x: -30 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.6, delay: 0.2 }}
-              className="col-span-1"
+              className="col-span-1 mb-4 md:mb-0"
             >
               <div className="bg-white rounded-xl overflow-hidden shadow-lg">
                 <img
                   src="./eric-fournier.png" // Assurez-vous d'avoir cette image
                   alt="Eric Fournier"
-                  className="w-full h-auto object-cover"
-                  onError={(e) => {
-                    e.target.src = "/api/placeholder/400/500"; // Image de substitution
-                    e.target.alt = "Photo d'Eric Fournier";
-                  }}
+                  className="w-full h-full object-cover"
                 />
                 <div className="p-6">
                   <h3 className="text-2xl font-semibold text-blue-900 mb-2">

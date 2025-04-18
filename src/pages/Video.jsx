@@ -32,36 +32,7 @@ const Video = () => {
             {/* En attendant la vidéo réelle, on utilise un placeholder */}
             <div className="relative pb-[56.25%] h-0 overflow-hidden rounded-lg bg-slate-800">
               {/* Ici, vous remplacerez cet élément par votre iframe de vidéo réelle */}
-              <div className="absolute inset-0 flex items-center justify-center">
-                <div className="text-center">
-                  <svg
-                    className="h-16 w-16 mx-auto text-blue-500 animate-pulse"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z"
-                    />
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-                    />
-                  </svg>
-                  <p className="mt-4 text-blue-300">
-                    Vidéo en cours de chargement...
-                  </p>
-                  <p className="mt-2 text-blue-400 text-sm">
-                    Remplacez ce placeholder par votre vidéo quand elle sera
-                    disponible
-                  </p>
-                </div>
-              </div>
+              <div className="absolute inset-0 flex items-center justify-center"></div>
 
               {/* Quand vous aurez la vidéo, utilisez ce format:
               <iframe
@@ -169,7 +140,7 @@ const Video = () => {
           <p className="text-blue-300 mb-4">
             Pour plus d'informations sur la candidature d'Éric Fournier
           </p>
-          <div className="flex justify-center space-x-6">
+          <div className="flex space-x-6 md:flex-row flex-col gap-2 text-center">
             <a
               href="mailto:contact@ericfournier4br.com"
               className="flex items-center text-blue-200 hover:text-white transition-colors"
