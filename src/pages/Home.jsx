@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <div className="bg-white">
       {/* Hero section avec split-screen */}
-      <section className="relative h-screen min-h-screen flex flex-col md:flex-row md:-mt-10">
+      <section className="relative h-screen min-h-screen flex flex-col md:flex-row md:-mt-10 bg-blue-900 mb-48 md:mb-0">
         {/* Image */}
         <div className="h-1/2 md:h-full md:w-1/2 relative">
           <img
@@ -20,7 +20,7 @@ const Home = () => {
         {/* Texte */}
         <div className="h-1/2 md:h-full md:w-1/2 flex items-center bg-blue-900 text-white flex-col pt-16">
           <motion.div
-            className="p-8 md:p-12 lg:p-16 max-w-lg mx-auto"
+            className="p-8 md:p-12 lg:p-16 max-w-lg mx-auto bg-blue-900"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 1 }}
@@ -87,7 +87,7 @@ const Home = () => {
           >
             <a
               href="#candidature"
-              className="flex flex-col items-center text-white"
+              className="flex flex-col items-center text-white opacity-0 md:opacity-100"
             >
               <span className="text-sm font-light mb-2">Découvrir</span>
               <svg
