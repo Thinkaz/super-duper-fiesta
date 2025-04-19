@@ -1,6 +1,7 @@
 // src/pages/Video.jsx
 import React from "react";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 const Video = () => {
   return (
@@ -97,7 +98,7 @@ const Video = () => {
             Découvrez également
           </h3>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-            <a
+            <Link
               href="/cv"
               className="p-4 rounded-lg bg-white/10 hover:bg-white/20 transition-colors backdrop-blur-sm"
             >
@@ -105,8 +106,8 @@ const Video = () => {
               <p className="text-blue-200 text-sm">
                 Une expérience internationale reconnue
               </p>
-            </a>
-            <a
+            </Link>
+            <Link
               href="/vision"
               className="p-4 rounded-lg bg-white/10 hover:bg-white/20 transition-colors backdrop-blur-sm"
             >
@@ -114,8 +115,8 @@ const Video = () => {
               <p className="text-blue-200 text-sm">
                 Pour des radiocommunications durables
               </p>
-            </a>
-            <a
+            </Link>
+            <Link
               href="/engagements"
               className="p-4 rounded-lg bg-white/10 hover:bg-white/20 transition-colors backdrop-blur-sm"
             >
@@ -123,7 +124,7 @@ const Video = () => {
               <p className="text-blue-200 text-sm">
                 Des actions concrètes pour l'UIT
               </p>
-            </a>
+            </Link>
           </div>
         </motion.div>
 
@@ -141,7 +142,7 @@ const Video = () => {
             Pour plus d'informations sur la candidature d'Éric Fournier
           </p>
           <div className="flex space-x-6 md:flex-row flex-col gap-2 text-center">
-            <a
+            <Link
               href="mailto:contact@ericfournier4br.com"
               className="flex items-center text-blue-200 hover:text-white transition-colors"
             >
@@ -159,8 +160,8 @@ const Video = () => {
                 />
               </svg>
               <span>contact@ericfournier4br.com</span>
-            </a>
-            <a
+            </Link>
+            <Link
               href="https://www.ericfournier4br.com"
               target="_blank"
               rel="noopener noreferrer"
@@ -180,7 +181,7 @@ const Video = () => {
                 />
               </svg>
               <span>www.ericfournier4br.com</span>
-            </a>
+            </Link>
           </div>
         </motion.div>
       </div>

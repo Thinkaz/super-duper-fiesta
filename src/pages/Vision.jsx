@@ -1,6 +1,7 @@
 // src/pages/Vision.jsx
 import React from "react";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 const Vision = () => {
   // Animation variants
@@ -344,12 +345,12 @@ const Vision = () => {
             règlementaires d'aujourd'hui et de demain.
           </p>
           <div className="inline-flex">
-            <a
+            <Link
               className="bg-blue-900 text-white px-6 py-3 rounded-lg hover:bg-blue-800 transition-colors shadow-md"
               href="/engagements"
             >
               Découvrir ses engagements
-            </a>
+            </Link>
           </div>
         </motion.div>
       </div>

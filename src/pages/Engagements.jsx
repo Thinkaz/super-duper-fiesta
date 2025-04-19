@@ -1,6 +1,7 @@
 // src/pages/Engagements.jsx
 import React, { useState } from "react";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 const Engagements = () => {
   // Données des engagements tirées de la brochure
@@ -394,18 +395,18 @@ const Engagements = () => {
             Bureau.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
-            <a
+            <Link
               href="/vision"
               className="px-6 py-3 bg-blue-900 text-white font-medium rounded-lg hover:bg-blue-800 transition-colors shadow-md"
             >
               Sa vision
-            </a>
-            <a
+            </Link>
+            <Link
               href="/video"
               className="px-6 py-3 border border-blue-900 text-blue-900 font-medium rounded-lg hover:bg-blue-50 transition-colors"
             >
               Voir son message vidéo
-            </a>
+            </Link>
           </div>
         </motion.div>
       </div>
