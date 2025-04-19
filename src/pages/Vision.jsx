@@ -347,7 +347,7 @@ const Vision = () => {
           <div className="inline-flex">
             <Link
               className="bg-blue-900 text-white px-6 py-3 rounded-lg hover:bg-blue-800 transition-colors shadow-md"
-              href="/engagements"
+              to="/engagements"
             >
               Découvrir ses engagements
             </Link>

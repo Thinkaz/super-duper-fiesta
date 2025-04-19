@@ -396,13 +396,13 @@ const Engagements = () => {
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <Link
-              href="/vision"
+              to="/vision"
               className="px-6 py-3 bg-blue-900 text-white font-medium rounded-lg hover:bg-blue-800 transition-colors shadow-md"
             >
               Sa vision
             </Link>
             <Link
-              href="/video"
+              to="/video"
               className="px-6 py-3 border border-blue-900 text-blue-900 font-medium rounded-lg hover:bg-blue-50 transition-colors"
             >
               Voir son message vidéo

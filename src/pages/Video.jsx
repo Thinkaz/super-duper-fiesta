@@ -108,7 +108,7 @@ const Video = () => {
               </p>
             </Link>
             <Link
-              href="/vision"
+              to="/vision"
               className="p-4 rounded-lg bg-white/10 hover:bg-white/20 transition-colors backdrop-blur-sm"
             >
               <h4 className="font-semibold mb-2">Sa vision</h4>
@@ -117,7 +117,7 @@ const Video = () => {
               </p>
             </Link>
             <Link
-              href="/engagements"
+              to="/engagements"
               className="p-4 rounded-lg bg-white/10 hover:bg-white/20 transition-colors backdrop-blur-sm"
             >
               <h4 className="font-semibold mb-2">Ses engagements</h4>
@@ -143,7 +143,7 @@ const Video = () => {
           </p>
           <div className="flex space-x-6 md:flex-row flex-col gap-2 text-center">
             <Link
-              href="mailto:contact@ericfournier4br.com"
+              to="mailto:contact@ericfournier4br.com"
               className="flex items-center text-blue-200 hover:text-white transition-colors"
             >
               <svg
@@ -162,7 +162,7 @@ const Video = () => {
               <span>contact@ericfournier4br.com</span>
             </Link>
             <Link
-              href="https://www.ericfournier4br.com"
+              to="https://www.ericfournier4br.com"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center text-blue-200 hover:text-white transition-colors"
