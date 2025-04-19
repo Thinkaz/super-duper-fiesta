@@ -582,14 +582,6 @@ const Home = () => {
               >
                 Découvrir sa vision
               </Link>
-              <a
-                href="https://www.ericfournier4br.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="px-8 py-4 border-2 border-white text-white font-bold rounded-lg hover:bg-white/10 transition-colors"
-              >
-                Site officiel
-              </a>
             </div>
           </motion.div>
         </div>

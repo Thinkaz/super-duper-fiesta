@@ -344,9 +344,12 @@ const Vision = () => {
             règlementaires d'aujourd'hui et de demain.
           </p>
           <div className="inline-flex">
-            <button className="bg-blue-900 text-white px-6 py-3 rounded-lg hover:bg-blue-800 transition-colors shadow-md">
+            <a
+              className="bg-blue-900 text-white px-6 py-3 rounded-lg hover:bg-blue-800 transition-colors shadow-md"
+              href="/engagements"
+            >
               Découvrir ses engagements
-            </button>
+            </a>
           </div>
         </motion.div>
       </div>
